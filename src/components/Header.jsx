@@ -20,7 +20,7 @@ const Header = () => {
       const sectionHeight = section.clientHeight;
 
       if (
-        scrollPosition >= sectionTop - sectionHeight * 0.4 &&
+        scrollPosition >= sectionTop - sectionHeight * 0.3 &&
         scrollPosition < sectionTop + sectionHeight - sectionHeight * 0.2
       ) {
         setActiveLink(section.getAttribute("id"));

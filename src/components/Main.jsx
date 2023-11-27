@@ -3,6 +3,7 @@ import todoThumbnail from "../assets/web-thumbnail/todolist-app.png";
 import informatikaUnriThumbnail from "../assets/web-thumbnail/informatika-Unri.png";
 import androidUiThumbnail from "../assets/web-thumbnail/UiUx Android.png";
 import carLandingPageThumbnail from "../assets/web-thumbnail/CarLandingPage.png";
+import NotesAppThumbnail from "../assets/web-thumbnail/NotesApp.png";
 
 const Main = () => {
   return (
@@ -368,7 +369,7 @@ const Main = () => {
               >
                 <div className="" style={{ flex: "1" }}>
                   <img
-                    src={carLandingPageThumbnail}
+                    src={NotesAppThumbnail}
                     alt=""
                     className="border-2 rounded border-slate-200/10 group-hover:border-slate-200/30 object-contain w-full h-auto"
                   />
@@ -376,7 +377,7 @@ const Main = () => {
                 <div className="" style={{ flex: "3" }}>
                   <h3 className=" pt-3 sm:pt-0 font-medium text-slate-200 group-hover:text">
                     <p className="text-base inline-flex items-baseline font-bold leading-tight text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300 group/link">
-                      Landing Page Assignment
+                      Notes App
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -393,21 +394,20 @@ const Main = () => {
                     </p>
                   </h3>
                   <p className="text-sm mt-2">
-                    A challenging assignment tasked by Binar Academy involving
-                    the creation of a responsive landing page using the
-                    Bootstrap framework. By implementing advanced responsive
-                    techniques, this landing page provided an appealing and
-                    well-accessible visual impression, ensuring a consistent
-                    user experience for both desktop and mobile visitors.
+                    A project tasked by Dicoding online course focused on
+                    creating a Notes App using React.js. This assignment
+                    involved leveraging React.js to develop a dynamic and
+                    intuitive application for note-taking purposes. The project
+                    emphasized the implementation of React components and state
+                    management, ensuring seamless user interactions and
+                    efficient data handling.
                   </p>
                   <div className="text-white pt-3">
                     <ul className="flex flex-wrap gap-2">
                       <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
-                        HTML
+                        React js
                       </li>
-                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
-                        CSS
-                      </li>
+
                       <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
                         javascript
                       </li>
@@ -415,7 +415,7 @@ const Main = () => {
                         Git
                       </li>
                       <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
-                        Bootstrap
+                        Vanila CSS
                       </li>
                     </ul>
                   </div>
@@ -433,7 +433,7 @@ const Main = () => {
         <a
           href=""
           target={"_blank"}
-          className="flex justify-center font-medium text-teal-300 rounded-full bg-teal-400/10 hover:text-white hover:bg-teal-600 p-4"
+          className=" justify-center font-medium text-teal-300 rounded-full bg-teal-400/10 hover:text-white hover:bg-teal-400/75 py-4 px-8"
         >
           See My Curriculum Vitae
         </a>
