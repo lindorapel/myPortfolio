@@ -128,7 +128,7 @@ const Main = () => {
                 <div className="" style={{ flex: "3" }}>
                   <h3 className=" pt-3 sm:pt-0 font-medium text-slate-200 group-hover:text">
                     <p className="text-base inline-flex items-baseline font-bold leading-tight text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300 group/link">
-                      Redesign Web Informatika Unri
+                      Revamp of Riau University's Informatics Website
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -200,7 +200,7 @@ const Main = () => {
                 <div className="" style={{ flex: "3" }}>
                   <h3 className=" pt-3 sm:pt-0 font-medium text-slate-200 group-hover:text">
                     <p className="text-base inline-flex items-baseline font-bold leading-tight text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300 group/link">
-                      Android UI/UX Design Assignment
+                      Designing Prototype Website for Freelance Mobile App
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -431,8 +431,9 @@ const Main = () => {
         aria-label="About me"
       >
         <a
-          href=""
+          href="https://drive.google.com/file/d/1DvQwgOA4X42UFD13ek4OB28osYamIdIw/view?usp=sharing"
           target={"_blank"}
+          rel="noreferrer"
           className=" justify-center font-medium text-teal-300 rounded-full bg-teal-400/10 hover:text-white hover:bg-teal-400/75 py-4 px-8"
         >
           See My Curriculum Vitae

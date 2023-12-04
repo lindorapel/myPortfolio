@@ -8,7 +8,7 @@ import reactIcon from "../assets/framework logo/science.png";
 import figmaIcon from "../assets/framework logo/figma.png";
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState("");
+  const [activeLink, setActiveLink] = useState("about");
 
   // Function to handle scrolling
   const handleScroll = () => {
