@@ -128,7 +128,7 @@ const Main = () => {
                 <div className="" style={{ flex: "3" }}>
                   <h3 className=" pt-3 sm:pt-0 font-medium text-slate-200 group-hover:text">
                     <p className="text-base inline-flex items-baseline font-bold leading-tight text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300 group/link">
-                      Revamp of Riau University's Informatics Website
+                      Revamp of Riau University Informatics Website
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
