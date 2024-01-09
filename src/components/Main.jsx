@@ -4,6 +4,7 @@ import informatikaUnriThumbnail from "../assets/web-thumbnail/informatika-Unri.p
 import androidUiThumbnail from "../assets/web-thumbnail/UiUx Android.png";
 import carLandingPageThumbnail from "../assets/web-thumbnail/CarLandingPage.png";
 import NotesAppThumbnail from "../assets/web-thumbnail/NotesApp.png";
+import moocThumbnail from "../assets/web-thumbnail/ILearnTech.png";
 
 const Main = () => {
   return (
@@ -49,6 +50,94 @@ const Main = () => {
         </div>
         <div>
           <ul className="flex flex-col gap-3 group/list">
+            <li className="group/link group hover:bg-slate-800 rounded-md p-5  lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+              <a
+                href="https://ilearn-tech.vercel.app/"
+                target={`_blank`}
+                className="sm:flex gap-5"
+              >
+                <div className="" style={{ flex: "1" }}>
+                  <img
+                    src={moocThumbnail}
+                    alt=""
+                    className="border-2 rounded border-slate-200/10 group-hover:border-slate-200/30 object-contain w-full h-auto"
+                  />
+                </div>
+                <div className="" style={{ flex: "3" }}>
+                  <h3 className=" pt-3 sm:pt-0 font-medium text-slate-200 group-hover:text">
+                    <p className="text-base inline-flex items-baseline font-bold leading-tight text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300 group/link">
+                      Massive Open Online Course(MOOC) Front End Website Design
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className="inline-block self-center w-4 h-4 ml-1 transition-transform translate-y-px shrink-0 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                          clipRule="evenodd"
+                        ></path>
+                      </svg>
+                    </p>
+                  </h3>
+                  <p className="text-sm mt-2">
+                    This MOOC application is the final project of the 6th batch
+                    of MBKM Independent Study in collaboration with Binar
+                    Academy in the Front End Javascript (React Js) course. In
+                    six weeks, students collaborated together to develop an
+                    interactive learning platform. The course participants were
+                    actively involved in the design and implementation, creating
+                    a responsive and quality MOOC platform to deepen further
+                    understanding.
+                  </p>
+                  <div className="text-white pt-3">
+                    <ul className="flex flex-wrap gap-2">
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Git
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Javascript
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Tailwind
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        React Js
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Redux toolkit
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Rest Api
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Axios
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Authentication
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Authorization
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Google OAuth
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        UI Design
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        UX
+                      </li>
+                      <li className="text-xs whitespace-nowrap font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 px-3 py-1 ">
+                        Figma
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </li>
             <li className="group/link group hover:bg-slate-800 rounded-md p-5  lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
               <a
                 href="https://coymovies.vercel.app/"
